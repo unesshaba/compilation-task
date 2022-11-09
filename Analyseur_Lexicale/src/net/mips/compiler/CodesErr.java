@@ -26,7 +26,9 @@ public enum CodesErr {
 	WHILE_ERR ("Mot clé while attendu!"),
 	RELOP_ERR ("Opérateur relationnel <, >, =, <>, <= ou >= attendu !"),
 	FACT_ERR ("Identificateur, nombre ou symbole ( attendu !"),
-	EOF_ERR ("End of file attendu !");
+	EOF_ERR ("End of file attendu !"),
+	PLUS_ERR("Symbole + attendu!"),
+	MOINS_ERR("Symbole - attendu!");
 	
 	
 	
